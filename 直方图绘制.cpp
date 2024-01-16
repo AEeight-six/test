@@ -42,7 +42,7 @@ void DrawGrayHist(const Mat& srcImg)
 			line(histImage, Point(i, histImage.rows - 1), Point(i, histImage.rows - 1 - value), Scalar(255));//绘制直方图
 
 		}
-		imshow("直方图", histImage);
+		imshow("直方图修改", histImage);
 	
 
 
